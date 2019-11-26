@@ -1,0 +1,2 @@
+python -m pip install xmltodict
+C:\Python3X\Scripts pip install xmltodict-0.12.0-py2.py3-none-any.whl                                        
