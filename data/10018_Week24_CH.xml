@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
-  <identifier>a9294d6b-92fb-4797-a410-c6b409e4cf8d</identifier>
+  <identifier>3c5d5eea-1cef-4266-bdd8-b6c0f2a0eec8</identifier>
   <sender>weather@cwb.gov.tw</sender>
-  <sent>2019-11-26T12:19:05+08:00</sent>
+  <sent>2019-11-27T18:20:28+08:00</sent>
   <status>Actual</status>
   <scope>Public</scope>
   <msgType>Issue</msgType>
@@ -12,12 +12,12 @@
     <datasetInfo>
       <datasetDescription>臺灣各縣市鄉鎮未來1週逐24小時天氣預報</datasetDescription>
       <datasetLanguage>zh-TW</datasetLanguage>
-      <issueTime>2019-11-26T11:00:00+08:00</issueTime>
+      <issueTime>2019-11-27T17:00:00+08:00</issueTime>
       <validTime>
-        <startTime>2019-11-26T12:00:00+08:00</startTime>
-        <endTime>2019-12-04T11:00:00+08:00</endTime>
+        <startTime>2019-11-27T18:00:00+08:00</startTime>
+        <endTime>2019-12-05T17:00:00+08:00</endTime>
       </validTime>
-      <update>2019-11-26T12:19:05+08:00</update>
+      <update>2019-11-27T18:20:28+08:00</update>
     </datasetInfo>
     <locations>
       <locationsName>新竹市</locationsName>
@@ -30,26 +30,10 @@
           <elementName>T</elementName>
           <description>平均溫度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -65,7 +49,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>20</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -81,7 +65,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -89,22 +89,6 @@
         <weatherElement>
           <elementName>Td</elementName>
           <description>平均露點溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -117,7 +101,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>14</value>
+              <value>13</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -125,7 +109,187 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
               <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>11</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>13</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>RH</elementName>
+          <description>平均相對濕度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>77</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>70</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>71</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>78</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>76</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>67</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>71</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MaxT</elementName>
+          <description>最高溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>24</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>24</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MinT</elementName>
+          <description>最低溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -141,7 +305,833 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
               <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MaxAT</elementName>
+          <description>最高體感溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>26</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>12</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MinAT</elementName>
+          <description>最低體感溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>11</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>10</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>10</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>8</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>9</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MaxCI</elementName>
+          <description>最大舒適度指數</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>22</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MinCI</elementName>
+          <description>最小舒適度指數</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>PoP24h</elementName>
+          <description>24小時降雨機率</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>WD</elementName>
+          <description>風向</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>偏東風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>WS</elementName>
+          <description>最大風速</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>6</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>4</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>Wx</elementName>
+          <description>天氣現象</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>02</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲時晴</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>03</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲時陰短暫雨</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>09</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>02</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>UVI</elementName>
+          <description>紫外獻指數</description>
+          <time>
+            <startTime>2019-11-28T06:00:00+08:00</startTime>
+            <endTime>2019-11-28T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T06:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>4</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>5</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T06:00:00+08:00</startTime>
+            <endTime>2019-12-01T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>4</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T06:00:00+08:00</startTime>
+            <endTime>2019-12-02T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>2</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T06:00:00+08:00</startTime>
+            <endTime>2019-12-03T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T06:00:00+08:00</startTime>
+            <endTime>2019-12-04T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>WeatherDescription</elementName>
+          <description>天氣預報綜合描述</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲。降雨機率 20%。溫度攝氏17至20度。稍有寒意。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度77%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲。降雨機率 0%。溫度攝氏16至22度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度70%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲。降雨機率 0%。溫度攝氏17至24度。稍有寒意至舒適。偏東風 風速4級(每秒6公尺)。相對濕度71%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲時晴。溫度攝氏18至24度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度78%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲時陰短暫雨。溫度攝氏16至20度。稍有寒意。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度76%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲。溫度攝氏15至19度。寒冷至稍有寒意。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度67%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲。溫度攝氏16至20度。稍有寒意。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度71%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+      </location>
+      <location>
+        <locationName>北區</locationName>
+        <geocode>1001802</geocode>
+        <lat>24.818109</lat>
+        <lon>120.96211</lon>
+        <weatherElement>
+          <elementName>T</elementName>
+          <description>平均溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>Td</elementName>
+          <description>平均露點溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>11</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>13</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -150,26 +1140,10 @@
           <elementName>RH</elementName>
           <description>平均相對濕度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>73</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>76</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>76</value>
+              <value>79</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -185,7 +1159,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>74</value>
+              <value>73</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -193,7 +1167,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>88</value>
+              <value>80</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -201,7 +1175,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>75</value>
+              <value>78</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>68</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>72</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -209,22 +1199,6 @@
         <weatherElement>
           <elementName>MaxT</elementName>
           <description>最高溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -260,6 +1234,22 @@
           <time>
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
             <elementValue>
               <value>21</value>
               <measures>攝氏度</measures>
@@ -270,22 +1260,6 @@
           <elementName>MinT</elementName>
           <description>最低溫度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
@@ -305,7 +1279,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>18</value>
+              <value>17</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -321,7 +1295,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -330,26 +1320,10 @@
           <elementName>MaxAT</elementName>
           <description>最高體感溫度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>16</value>
+              <value>15</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -365,7 +1339,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>25</value>
+              <value>26</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -373,7 +1347,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>25</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -381,7 +1355,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>16</value>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>13</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -390,22 +1380,6 @@
           <elementName>MinAT</elementName>
           <description>最低體感溫度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>15</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>14</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
@@ -417,7 +1391,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>11</value>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -425,7 +1399,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>13</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -433,7 +1407,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>15</value>
+              <value>14</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -441,7 +1415,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>9</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>8</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -449,22 +1439,6 @@
         <weatherElement>
           <elementName>MaxCI</elementName>
           <description>最大舒適度指數</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -501,6 +1475,22 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
+              <value>19</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
               <value>20</value>
               <measures>NA</measures>
             </elementValue>
@@ -510,26 +1500,10 @@
           <elementName>MinCI</elementName>
           <description>最小舒適度指數</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -561,7 +1535,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -569,22 +1559,6 @@
         <weatherElement>
           <elementName>PoP24h</elementName>
           <description>24小時降雨機率</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -597,7 +1571,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>0</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -605,7 +1579,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>0</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -625,26 +1599,26 @@
               <measures>百分比</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WD</elementName>
           <description>風向</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -685,34 +1659,26 @@
               <measures>16方位</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WS</elementName>
           <description>最大風速</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>10</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>5</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -741,11 +1707,11 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>4</value>
+              <value>7</value>
               <measures>公尺/秒</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>4</value>
               <measures>蒲福風級</measures>
             </elementValue>
           </time>
@@ -753,11 +1719,11 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>9</value>
+              <value>&gt;= 11</value>
               <measures>公尺/秒</measures>
             </elementValue>
             <elementValue>
-              <value>5</value>
+              <value>&gt;= 6</value>
               <measures>蒲福風級</measures>
             </elementValue>
           </time>
@@ -765,11 +1731,35 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>&gt;= 11</value>
               <measures>公尺/秒</measures>
             </elementValue>
             <elementValue>
-              <value>5</value>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
               <measures>蒲福風級</measures>
             </elementValue>
           </time>
@@ -778,44 +1768,44 @@
           <elementName>Wx</elementName>
           <description>天氣現象</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲時陰</value>
+              <value>多雲</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>05</value>
+              <value>04</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
           <time>
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>02</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
               <value>多雲時晴</value>
               <measures>自定義 Wx 文字</measures>
@@ -826,8 +1816,20 @@
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲時陰短暫雨</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>09</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
             <elementValue>
               <value>晴時多雲</value>
               <measures>自定義 Wx 文字</measures>
@@ -838,26 +1840,14 @@
             </elementValue>
           </time>
           <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲短暫雨</value>
+              <value>多雲</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>08</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>陰短暫雨</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>11</value>
+              <value>04</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -865,30 +1855,6 @@
         <weatherElement>
           <elementName>UVI</elementName>
           <description>紫外獻指數</description>
-          <time>
-            <startTime>2019-11-26T06:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T06:00:00+08:00</startTime>
             <endTime>2019-11-28T18:00:00+08:00</endTime>
@@ -917,11 +1883,11 @@
             <startTime>2019-11-30T06:00:00+08:00</startTime>
             <endTime>2019-11-30T18:00:00+08:00</endTime>
             <elementValue>
-              <value>6</value>
+              <value>4</value>
               <measures>紫外線指數</measures>
             </elementValue>
             <elementValue>
-              <value>高量級</value>
+              <value>中量級</value>
               <measures>曝曬級數</measures>
             </elementValue>
           </time>
@@ -941,6 +1907,30 @@
             <startTime>2019-12-02T06:00:00+08:00</startTime>
             <endTime>2019-12-02T18:00:00+08:00</endTime>
             <elementValue>
+              <value>2</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T06:00:00+08:00</startTime>
+            <endTime>2019-12-03T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T06:00:00+08:00</startTime>
+            <endTime>2019-12-04T18:00:00+08:00</endTime>
+            <elementValue>
               <value>3</value>
               <measures>紫外線指數</measures>
             </elementValue>
@@ -954,26 +1944,10 @@
           <elementName>WeatherDescription</elementName>
           <description>天氣預報綜合描述</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。降雨機率 20%。溫度攝氏20至23度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度73%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。降雨機率 20%。溫度攝氏19至23度。稍有寒意至舒適。東北風 風速5級(每秒10公尺)。相對濕度76%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲時陰。降雨機率 20%。溫度攝氏17至20度。稍有寒意。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度76%。</value>
+              <value>多雲。降雨機率 20%。溫度攝氏17至20度。稍有寒意。東北風 風速&gt;= 6級(每秒16公尺)。相對濕度79%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -981,7 +1955,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲時晴。溫度攝氏16至23度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度72%。</value>
+              <value>多雲。降雨機率 0%。溫度攝氏16至23度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度72%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -989,7 +1963,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>晴時多雲。溫度攝氏18至25度。稍有寒意至舒適。偏東風 風速3級(每秒4公尺)。相對濕度75%。</value>
+              <value>晴時多雲。降雨機率 0%。溫度攝氏17至25度。稍有寒意至舒適。偏東風 風速4級(每秒7公尺)。相對濕度73%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -997,7 +1971,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲短暫雨。溫度攝氏18至24度。稍有寒意至舒適。東北風 風速5級(每秒9公尺)。相對濕度88%。</value>
+              <value>多雲時晴。溫度攝氏18至24度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度80%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1005,41 +1979,41 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨。溫度攝氏17至21度。稍有寒意至舒適。東北風 風速5級(每秒10公尺)。相對濕度75%。</value>
+              <value>多雲時陰短暫雨。溫度攝氏16至20度。稍有寒意。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度78%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲。溫度攝氏15至19度。寒冷至稍有寒意。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度68%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲。溫度攝氏16至21度。寒冷至舒適。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度72%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
         </weatherElement>
       </location>
       <location>
-        <locationName>北區</locationName>
-        <geocode>1001802</geocode>
-        <lat>24.818109</lat>
-        <lon>120.96211</lon>
+        <locationName>香山區</locationName>
+        <geocode>1001803</geocode>
+        <lat>24.798788</lat>
+        <lon>120.933766</lon>
         <weatherElement>
           <elementName>T</elementName>
           <description>平均溫度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1055,7 +2029,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>21</value>
+              <value>20</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1070,6 +2044,22 @@
           <time>
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
             <elementValue>
               <value>18</value>
               <measures>攝氏度</measures>
@@ -1080,26 +2070,10 @@
           <elementName>Td</elementName>
           <description>平均露點溫度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>14</value>
+              <value>15</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1123,7 +2097,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>18</value>
+              <value>17</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1131,7 +2105,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>15</value>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>11</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>13</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -1140,26 +2130,10 @@
           <elementName>RH</elementName>
           <description>平均相對濕度</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>74</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>77</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>76</value>
+              <value>80</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -1175,1036 +2149,46 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>76</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>88</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>75</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MaxT</elementName>
-          <description>最高溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>25</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MinT</elementName>
-          <description>最低溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MaxAT</elementName>
-          <description>最高體感溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>15</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>26</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MinAT</elementName>
-          <description>最低體感溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>14</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>13</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>11</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>10</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>13</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>11</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MaxCI</elementName>
-          <description>最大舒適度指數</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MinCI</elementName>
-          <description>最小舒適度指數</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>PoP24h</elementName>
-          <description>24小時降雨機率</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value> </value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value> </value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value> </value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value> </value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>WD</elementName>
-          <description>風向</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>偏東風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>WS</elementName>
-          <description>最大風速</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>5</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>10</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>5</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>Wx</elementName>
-          <description>天氣現象</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>多雲時陰</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>05</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>多雲時晴</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>03</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>多雲短暫雨</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>08</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>陰短暫雨</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>11</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>UVI</elementName>
-          <description>紫外獻指數</description>
-          <time>
-            <startTime>2019-11-26T06:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T06:00:00+08:00</startTime>
-            <endTime>2019-11-28T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>3</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T06:00:00+08:00</startTime>
-            <endTime>2019-11-29T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T06:00:00+08:00</startTime>
-            <endTime>2019-11-30T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>6</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>高量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T06:00:00+08:00</startTime>
-            <endTime>2019-12-01T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T06:00:00+08:00</startTime>
-            <endTime>2019-12-02T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>3</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>WeatherDescription</elementName>
-          <description>天氣預報綜合描述</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。降雨機率 20%。溫度攝氏20至23度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度74%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。降雨機率 20%。溫度攝氏18至23度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度77%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>多雲時陰。降雨機率 20%。溫度攝氏17至20度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度76%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>多雲時晴。溫度攝氏16至23度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度73%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。溫度攝氏18至25度。稍有寒意至舒適。偏東風 風速3級(每秒5公尺)。相對濕度77%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>多雲短暫雨。溫度攝氏18至24度。稍有寒意至舒適。東北風 風速5級(每秒10公尺)。相對濕度88%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>陰短暫雨。溫度攝氏16至21度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度75%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-      </location>
-      <location>
-        <locationName>香山區</locationName>
-        <geocode>1001803</geocode>
-        <lat>24.798788</lat>
-        <lon>120.933766</lon>
-        <weatherElement>
-          <elementName>T</elementName>
-          <description>平均溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>21</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>Td</elementName>
-          <description>平均露點溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>14</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>14</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>14</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>RH</elementName>
-          <description>平均相對濕度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
               <value>75</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>78</value>
+              <value>82</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>77</value>
+              <value>79</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>70</value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
             <elementValue>
               <value>74</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>77</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>89</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>76</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
         </weatherElement>
         <weatherElement>
           <elementName>MaxT</elementName>
           <description>最高溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -2217,7 +2201,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>24</value>
+              <value>23</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2225,127 +2209,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>26</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>24</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MinT</elementName>
-          <description>最低溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>15</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>17</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-01T00:00:00+08:00</startTime>
-            <endTime>2019-12-02T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-12-02T00:00:00+08:00</startTime>
-            <endTime>2019-12-03T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-        </weatherElement>
-        <weatherElement>
-          <elementName>MaxAT</elementName>
-          <description>最高體感溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>16</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-30T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-30T00:00:00+08:00</startTime>
-            <endTime>2019-12-01T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>27</value>
+              <value>25</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2361,6 +2225,142 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
+              <value>21</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>21</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MinT</elementName>
+          <description>最低溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>17</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>16</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+        </weatherElement>
+        <weatherElement>
+          <elementName>MaxAT</elementName>
+          <description>最高體感溫度</description>
+          <time>
+            <startTime>2019-11-28T00:00:00+08:00</startTime>
+            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>19</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-12-01T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>26</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-01T00:00:00+08:00</startTime>
+            <endTime>2019-12-02T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>25</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-02T00:00:00+08:00</startTime>
+            <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>13</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
               <value>16</value>
               <measures>攝氏度</measures>
             </elementValue>
@@ -2369,22 +2369,6 @@
         <weatherElement>
           <elementName>MinAT</elementName>
           <description>最低體感溫度</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>14</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>12</value>
-              <measures>攝氏度</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -2405,7 +2389,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>15</value>
+              <value>14</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2413,7 +2397,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>12</value>
+              <value>13</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2421,7 +2405,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>10</value>
+              <value>9</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>7</value>
+              <measures>攝氏度</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>9</value>
               <measures>攝氏度</measures>
             </elementValue>
           </time>
@@ -2429,22 +2429,6 @@
         <weatherElement>
           <elementName>MaxCI</elementName>
           <description>最大舒適度指數</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>22</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -2457,7 +2441,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>22</value>
+              <value>21</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2480,6 +2464,22 @@
           <time>
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
             <elementValue>
               <value>20</value>
               <measures>NA</measures>
@@ -2490,22 +2490,6 @@
           <elementName>MinCI</elementName>
           <description>最小舒適度指數</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>19</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>18</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
@@ -2525,7 +2509,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2541,7 +2525,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>16</value>
+              <value>15</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>14</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>15</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2549,22 +2549,6 @@
         <weatherElement>
           <elementName>PoP24h</elementName>
           <description>24小時降雨機率</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>20</value>
-              <measures>百分比</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -2577,7 +2561,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>0</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2585,7 +2569,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value> </value>
+              <value>0</value>
               <measures>百分比</measures>
             </elementValue>
           </time>
@@ -2605,26 +2589,26 @@
               <measures>百分比</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value> </value>
+              <measures>百分比</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WD</elementName>
           <description>風向</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>東北風</value>
-              <measures>16方位</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -2653,7 +2637,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>東北風</value>
+              <value>偏北風</value>
               <measures>16方位</measures>
             </elementValue>
           </time>
@@ -2665,34 +2649,26 @@
               <measures>16方位</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>東北風</value>
+              <measures>16方位</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WS</elementName>
           <description>最大風速</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>&gt;= 11</value>
-              <measures>公尺/秒</measures>
-            </elementValue>
-            <elementValue>
-              <value>&gt;= 6</value>
-              <measures>蒲福風級</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
@@ -2721,11 +2697,11 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>7</value>
               <measures>公尺/秒</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>4</value>
               <measures>蒲福風級</measures>
             </elementValue>
           </time>
@@ -2744,6 +2720,30 @@
           <time>
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>&gt;= 11</value>
+              <measures>公尺/秒</measures>
+            </elementValue>
+            <elementValue>
+              <value>&gt;= 6</value>
+              <measures>蒲福風級</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
             <elementValue>
               <value>&gt;= 11</value>
               <measures>公尺/秒</measures>
@@ -2758,38 +2758,14 @@
           <elementName>Wx</elementName>
           <description>天氣現象</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲</value>
-              <measures>自定義 Wx 文字</measures>
-            </elementValue>
-            <elementValue>
-              <value>02</value>
-              <measures>自定義 Wx 單位</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰時多雲</value>
+              <value>多雲</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>06</value>
+              <value>04</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -2797,11 +2773,11 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>晴時多雲</value>
+              <value>多雲</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>02</value>
+              <value>04</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -2821,11 +2797,11 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲短暫雨</value>
+              <value>多雲時晴</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>08</value>
+              <value>03</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -2833,11 +2809,35 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨</value>
+              <value>陰時多雲短暫雨</value>
               <measures>自定義 Wx 文字</measures>
             </elementValue>
             <elementValue>
-              <value>11</value>
+              <value>10</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>02</value>
+              <measures>自定義 Wx 單位</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲</value>
+              <measures>自定義 Wx 文字</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
               <measures>自定義 Wx 單位</measures>
             </elementValue>
           </time>
@@ -2845,30 +2845,6 @@
         <weatherElement>
           <elementName>UVI</elementName>
           <description>紫外獻指數</description>
-          <time>
-            <startTime>2019-11-26T06:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>4</value>
-              <measures>紫外線指數</measures>
-            </elementValue>
-            <elementValue>
-              <value>中量級</value>
-              <measures>曝曬級數</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-28T06:00:00+08:00</startTime>
             <endTime>2019-11-28T18:00:00+08:00</endTime>
@@ -2897,7 +2873,7 @@
             <startTime>2019-11-30T06:00:00+08:00</startTime>
             <endTime>2019-11-30T18:00:00+08:00</endTime>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>紫外線指數</measures>
             </elementValue>
             <elementValue>
@@ -2929,31 +2905,39 @@
               <measures>曝曬級數</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-12-03T06:00:00+08:00</startTime>
+            <endTime>2019-12-03T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T06:00:00+08:00</startTime>
+            <endTime>2019-12-04T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>3</value>
+              <measures>紫外線指數</measures>
+            </elementValue>
+            <elementValue>
+              <value>中量級</value>
+              <measures>曝曬級數</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>天氣預報綜合描述</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。降雨機率 20%。溫度攝氏19至24度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度75%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>晴時多雲。降雨機率 20%。溫度攝氏18至24度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度78%。</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰時多雲。降雨機率 20%。溫度攝氏17至21度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度77%。</value>
+              <value>多雲。降雨機率 20%。溫度攝氏17至21度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度80%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2961,7 +2945,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-30T00:00:00+08:00</endTime>
             <elementValue>
-              <value>晴時多雲。溫度攝氏15至24度。寒冷至舒適。東北風 風速&gt;= 6級(每秒12公尺)。相對濕度74%。</value>
+              <value>多雲。降雨機率 0%。溫度攝氏16至23度。寒冷至舒適。東北風 風速&gt;= 6級(每秒13公尺)。相對濕度73%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2969,7 +2953,7 @@
             <startTime>2019-11-30T00:00:00+08:00</startTime>
             <endTime>2019-12-01T00:00:00+08:00</endTime>
             <elementValue>
-              <value>晴時多雲。溫度攝氏17至26度。稍有寒意至舒適。偏東風 風速3級(每秒5公尺)。相對濕度77%。</value>
+              <value>晴時多雲。降雨機率 0%。溫度攝氏16至25度。稍有寒意至舒適。偏東風 風速4級(每秒7公尺)。相對濕度75%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2977,7 +2961,7 @@
             <startTime>2019-12-01T00:00:00+08:00</startTime>
             <endTime>2019-12-02T00:00:00+08:00</endTime>
             <elementValue>
-              <value>多雲短暫雨。溫度攝氏18至24度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度89%。</value>
+              <value>多雲時晴。溫度攝氏18至25度。稍有寒意至舒適。偏北風 風速&gt;= 6級(每秒13公尺)。相對濕度82%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2985,7 +2969,23 @@
             <startTime>2019-12-02T00:00:00+08:00</startTime>
             <endTime>2019-12-03T00:00:00+08:00</endTime>
             <elementValue>
-              <value>陰短暫雨。溫度攝氏16至22度。稍有寒意至舒適。東北風 風速&gt;= 6級(每秒11公尺)。相對濕度76%。</value>
+              <value>陰時多雲短暫雨。溫度攝氏16至21度。寒冷至舒適。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度79%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-03T00:00:00+08:00</startTime>
+            <endTime>2019-12-04T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>晴時多雲。溫度攝氏14至20度。寒冷至稍有寒意。東北風 風速&gt;= 6級(每秒14公尺)。相對濕度70%。</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-12-04T00:00:00+08:00</startTime>
+            <endTime>2019-12-05T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>多雲。溫度攝氏15至21度。寒冷至舒適。東北風 風速&gt;= 6級(每秒15公尺)。相對濕度75%。</value>
               <measures>NA</measures>
             </elementValue>
           </time>

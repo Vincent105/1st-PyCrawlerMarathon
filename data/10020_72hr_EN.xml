@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
-  <identifier>2ec76388-8054-4e68-ac3b-b0a76e5c33fc</identifier>
+  <identifier>160356fe-555b-42cf-863a-f6e6cdf54b5f</identifier>
   <sender>weather@cwb.gov.tw</sender>
-  <sent>2019-11-26T12:18:12+08:00</sent>
+  <sent>2019-11-27T18:18:51+08:00</sent>
   <status>Actual</status>
   <scope>Public</scope>
   <msgType>Issue</msgType>
@@ -12,12 +12,12 @@
     <datasetInfo>
       <datasetDescription>Seventy-Two Hours Weather Forecast of 368 townships</datasetDescription>
       <datasetLanguage>EN</datasetLanguage>
-      <issueTime>2019-11-26T11:00:00+08:00</issueTime>
+      <issueTime>2019-11-27T17:00:00+08:00</issueTime>
       <validTime>
-        <startTime>2019-11-26T12:00:00+08:00</startTime>
-        <endTime>2019-11-29T11:00:00+08:00</endTime>
+        <startTime>2019-11-27T18:00:00+08:00</startTime>
+        <endTime>2019-11-30T17:00:00+08:00</endTime>
       </validTime>
-      <update>2019-11-26T12:18:12+08:00</update>
+      <update>2019-11-27T18:18:51+08:00</update>
     </datasetInfo>
     <locations>
       <locationsName>Chiayi City</locationsName>
@@ -30,76 +30,6 @@
           <elementName>T</elementName>
           <description>temperature</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
               <value>23</value>
@@ -123,7 +53,7 @@
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -151,7 +81,7 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>25</value>
+              <value>26</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -186,7 +116,7 @@
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -194,6 +124,76 @@
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
               <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>27</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>27</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -202,100 +202,30 @@
           <elementName>Td</elementName>
           <description>dew point temperature</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>17</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>17</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>18</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>17</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>15</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-27T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>18</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -323,14 +253,14 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>14</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>14</value>
+              <value>15</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -351,14 +281,14 @@
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>13</value>
+              <value>14</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>12</value>
+              <value>13</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -369,112 +299,112 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>13</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>13</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>15</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>15</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>14</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>15</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>16</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>16</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>RH</elementName>
           <description>relative humidity</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>55</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>51</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>62</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>72</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>80</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>88</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>87</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>68</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>47</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>50</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>67</value>
+              <value>73</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-27T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>79</value>
+              <value>82</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>89</value>
+              <value>84</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>92</value>
+              <value>84</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>86</value>
+              <value>84</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -495,28 +425,28 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>49</value>
+              <value>55</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>66</value>
+              <value>68</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>78</value>
+              <value>77</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>80</value>
+              <value>78</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -530,14 +460,84 @@
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>76</value>
+              <value>79</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>68</value>
+              <value>70</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>60</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>57</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>56</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>67</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>78</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>85</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>82</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>66</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>51</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>50</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -545,46 +545,6 @@
         <weatherElement>
           <elementName>PoP6h</elementName>
           <description>6 hours probability of precipitation</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T18:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T06:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-27T18:00:00+08:00</startTime>
             <endTime>2019-11-28T00:00:00+08:00</endTime>
@@ -641,53 +601,93 @@
               <measures>%</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-11-29T12:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T12:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T12:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>PoP12h</elementName>
           <description>12 hours probability of precipitation</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
+            <startTime>2019-11-27T18:00:00+08:00</startTime>
+            <endTime>2019-11-28T06:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
+            <startTime>2019-11-28T06:00:00+08:00</startTime>
+            <endTime>2019-11-28T18:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
+            <startTime>2019-11-28T18:00:00+08:00</startTime>
+            <endTime>2019-11-29T06:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T12:00:00+08:00</endTime>
+            <startTime>2019-11-29T06:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-28T12:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T12:00:00+08:00</endTime>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
@@ -698,76 +698,6 @@
           <elementName>WD</elementName>
           <description>wind direction</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>NW</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>NW</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
               <value>N</value>
@@ -861,7 +791,77 @@
           <time>
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
+              <value>SW</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>SW</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>N</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
               <value>NE</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>SW</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>E</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>E</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>N</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>W</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>NW</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>NW</value>
               <measures>16 directions</measures>
             </elementValue>
           </time>
@@ -870,119 +870,9 @@
           <elementName>WS</elementName>
           <description>wind speed</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>2</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>2</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>&lt;= 1</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>2</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>2</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>&lt;= 1</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>4</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -1004,11 +894,11 @@
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>3</value>
+              <value>4</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>2</value>
+              <value>3</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -1037,11 +927,11 @@
           <time>
             <dataTime>2019-11-28T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>5</value>
+              <value>6</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>4</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
@@ -1059,18 +949,18 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>3</value>
+              <value>5</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>2</value>
+              <value>3</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -1103,17 +993,28 @@
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T09:00:00+08:00</dataTime>
+            <elementValue>
               <value>4</value>
               <measures>m/s</measures>
             </elementValue>
@@ -1123,7 +1024,106 @@
             </elementValue>
           </time>
           <time>
-            <dataTime>2019-11-29T09:00:00+08:00</dataTime>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>2</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>1</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&lt;= 1</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>1</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&lt;= 1</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>2</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>4</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>3</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
             <elementValue>
               <value>3</value>
               <measures>m/s</measures>
@@ -1138,119 +1138,9 @@
           <elementName>CI</elementName>
           <description>comfort index</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>24</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>24</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>24</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>21</value>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
             <elementValue>
@@ -1327,7 +1217,7 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>22</value>
+              <value>23</value>
               <measures>NA</measures>
             </elementValue>
             <elementValue>
@@ -1394,6 +1284,116 @@
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
               <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>23</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>24</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>19</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Cool</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Cool</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Cool</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>23</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>24</value>
               <measures>NA</measures>
             </elementValue>
             <elementValue>
@@ -1406,100 +1406,30 @@
           <elementName>AT</elementName>
           <description>athletic temperature</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>28</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>22</value>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-27T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>20</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>20</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>19</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1520,14 +1450,14 @@
           <time>
             <dataTime>2019-11-28T12:00:00+08:00</dataTime>
             <elementValue>
-              <value>24</value>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>24</value>
+              <value>25</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1555,14 +1485,14 @@
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>15</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -1573,130 +1503,80 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>27</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>28</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Wx</elementName>
           <description>weather</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-26T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T15:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T18:00:00+08:00</startTime>
-            <endTime>2019-11-26T21:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T21:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T03:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T03:00:00+08:00</startTime>
-            <endTime>2019-11-27T06:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T09:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T09:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T15:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-27T18:00:00+08:00</startTime>
             <endTime>2019-11-27T21:00:00+08:00</endTime>
@@ -1809,11 +1689,11 @@
             <startTime>2019-11-28T21:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear</value>
+              <value>Partly cloudy</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>01</value>
+              <value>04</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -1821,11 +1701,11 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-29T03:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear</value>
+              <value>Partly cloudy</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>01</value>
+              <value>04</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -1865,95 +1745,135 @@
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-11-29T12:00:00+08:00</startTime>
+            <endTime>2019-11-29T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T15:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-29T21:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T21:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T03:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T03:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T09:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T09:00:00+08:00</startTime>
+            <endTime>2019-11-30T12:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T12:00:00+08:00</startTime>
+            <endTime>2019-11-30T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T15:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>weather description</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-26T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T15:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T18:00:00+08:00</startTime>
-            <endTime>2019-11-26T21:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 23 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T21:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T03:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T03:00:00+08:00</startTime>
-            <endTime>2019-11-27T06:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T09:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 19 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T09:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 22 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T15:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
             <startTime>2019-11-27T18:00:00+08:00</startTime>
             <endTime>2019-11-27T21:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 23 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 23 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1969,7 +1889,7 @@
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-28T03:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1977,7 +1897,7 @@
             <startTime>2019-11-28T03:00:00+08:00</startTime>
             <endTime>2019-11-28T06:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 19 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 18 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -1993,7 +1913,7 @@
             <startTime>2019-11-28T09:00:00+08:00</startTime>
             <endTime>2019-11-28T12:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 5m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 6m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2009,7 +1929,7 @@
             <startTime>2019-11-28T15:00:00+08:00</startTime>
             <endTime>2019-11-28T18:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 25 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 26 centigrade. Comfortable. North wind 5m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2017,7 +1937,7 @@
             <startTime>2019-11-28T18:00:00+08:00</startTime>
             <endTime>2019-11-28T21:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2025,7 +1945,7 @@
             <startTime>2019-11-28T21:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 19 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Partly cloudy. Temperature 19 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2033,7 +1953,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-29T03:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 18 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Partly cloudy. Temperature 18 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2041,7 +1961,7 @@
             <startTime>2019-11-29T03:00:00+08:00</startTime>
             <endTime>2019-11-29T06:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 17 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 17 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2049,7 +1969,7 @@
             <startTime>2019-11-29T06:00:00+08:00</startTime>
             <endTime>2019-11-29T09:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 16 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 17 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2057,7 +1977,87 @@
             <startTime>2019-11-29T09:00:00+08:00</startTime>
             <endTime>2019-11-29T12:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 21 centigrade. Comfortable. NorthEast wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 21 centigrade. Comfortable. SouthWest wind 4m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T12:00:00+08:00</startTime>
+            <endTime>2019-11-29T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 26 centigrade. Comfortable. SouthWest wind 2m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T15:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 26 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-29T21:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 22 centigrade. Comfortable. NorthEast wind 0m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T21:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 20 centigrade. Comfortable. SouthWest wind 0m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T03:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 19 centigrade. Cool. East wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T03:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 18 centigrade. Cool. East wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T09:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 17 centigrade. Cool. North wind 2m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T09:00:00+08:00</startTime>
+            <endTime>2019-11-30T12:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 21 centigrade. Comfortable. West wind 4m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T12:00:00+08:00</startTime>
+            <endTime>2019-11-30T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 27 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T15:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 27 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -2071,76 +2071,6 @@
         <weatherElement>
           <elementName>T</elementName>
           <description>temperature</description>
-          <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
           <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
@@ -2158,14 +2088,14 @@
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>19</value>
+              <value>20</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>18</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2179,7 +2109,7 @@
           <time>
             <dataTime>2019-11-28T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>20</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2193,7 +2123,7 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>25</value>
+              <value>26</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2207,7 +2137,7 @@
           <time>
             <dataTime>2019-11-28T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>18</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2239,91 +2169,91 @@
               <measures>C</measures>
             </elementValue>
           </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>27</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>22</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>19</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>27</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>28</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>Td</elementName>
           <description>dew point temperature</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>17</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>17</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>17</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>14</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>16</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>18</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-27T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2337,7 +2267,7 @@
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>17</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2351,7 +2281,7 @@
           <time>
             <dataTime>2019-11-28T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>15</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2365,21 +2295,21 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>14</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>14</value>
+              <value>15</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>14</value>
+              <value>15</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2400,14 +2330,84 @@
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>12</value>
+              <value>13</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
+              <value>15</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>13</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
               <value>14</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>15</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>15</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>14</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>16</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -2416,100 +2416,30 @@
           <elementName>RH</elementName>
           <description>relative humidity</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>53</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>50</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>63</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>72</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>80</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>88</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>87</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>67</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>46</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>50</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>67</value>
+              <value>73</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-27T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>78</value>
+              <value>82</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>88</value>
+              <value>84</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>91</value>
+              <value>84</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2523,63 +2453,133 @@
           <time>
             <dataTime>2019-11-28T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>71</value>
+              <value>73</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T12:00:00+08:00</dataTime>
             <elementValue>
-              <value>53</value>
+              <value>54</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>49</value>
+              <value>56</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>65</value>
+              <value>68</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>78</value>
+              <value>77</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>79</value>
+              <value>78</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>77</value>
+              <value>79</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>75</value>
+              <value>80</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>66</value>
+              <value>72</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>60</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>55</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>57</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>68</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>79</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>85</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>84</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>72</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>55</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>52</value>
               <measures>%</measures>
             </elementValue>
           </time>
@@ -2587,46 +2587,6 @@
         <weatherElement>
           <elementName>PoP6h</elementName>
           <description>6 hours probability of precipitation</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T18:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T06:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>0</value>
-              <measures>%</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-27T18:00:00+08:00</startTime>
             <endTime>2019-11-28T00:00:00+08:00</endTime>
@@ -2683,53 +2643,93 @@
               <measures>%</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-11-29T12:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T12:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T12:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>0</value>
+              <measures>%</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>PoP12h</elementName>
           <description>12 hours probability of precipitation</description>
           <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
+            <startTime>2019-11-27T18:00:00+08:00</startTime>
+            <endTime>2019-11-28T06:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
+            <startTime>2019-11-28T06:00:00+08:00</startTime>
+            <endTime>2019-11-28T18:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-28T00:00:00+08:00</endTime>
+            <startTime>2019-11-28T18:00:00+08:00</startTime>
+            <endTime>2019-11-29T06:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-28T00:00:00+08:00</startTime>
-            <endTime>2019-11-28T12:00:00+08:00</endTime>
+            <startTime>2019-11-29T06:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-28T12:00:00+08:00</startTime>
-            <endTime>2019-11-29T00:00:00+08:00</endTime>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
             </elementValue>
           </time>
           <time>
-            <startTime>2019-11-29T00:00:00+08:00</startTime>
-            <endTime>2019-11-29T12:00:00+08:00</endTime>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
             <elementValue>
               <value>0</value>
               <measures>%</measures>
@@ -2740,76 +2740,6 @@
           <elementName>WD</elementName>
           <description>wind direction</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>NW</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>NW</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>N</value>
-              <measures>16 directions</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
               <value>N</value>
@@ -2903,7 +2833,77 @@
           <time>
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
+              <value>SW</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>W</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
               <value>N</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>N</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>W</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>E</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>E</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>N</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>W</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>NW</value>
+              <measures>16 directions</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>NW</value>
               <measures>16 directions</measures>
             </elementValue>
           </time>
@@ -2912,116 +2912,6 @@
           <elementName>WS</elementName>
           <description>wind speed</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>4</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>2</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>&lt;= 1</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>3</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>2</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>4</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>4</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>4</value>
-              <measures>m/s</measures>
-            </elementValue>
-            <elementValue>
-              <value>3</value>
-              <measures>Beaufort</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
               <value>3</value>
@@ -3046,7 +2936,7 @@
           <time>
             <dataTime>2019-11-28T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>5</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -3079,7 +2969,7 @@
           <time>
             <dataTime>2019-11-28T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>6</value>
+              <value>7</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -3090,7 +2980,7 @@
           <time>
             <dataTime>2019-11-28T12:00:00+08:00</dataTime>
             <elementValue>
-              <value>5</value>
+              <value>4</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
@@ -3101,61 +2991,94 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>6</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>4</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>4</value>
+              <value>3</value>
               <measures>m/s</measures>
             </elementValue>
             <elementValue>
-              <value>3</value>
+              <value>2</value>
               <measures>Beaufort</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>2</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
               <value>4</value>
               <measures>m/s</measures>
             </elementValue>
@@ -3165,7 +3088,84 @@
             </elementValue>
           </time>
           <time>
-            <dataTime>2019-11-29T09:00:00+08:00</dataTime>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>1</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&lt;= 1</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>1</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>&lt;= 1</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>2</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>2</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>4</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>3</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>3</value>
+              <measures>m/s</measures>
+            </elementValue>
+            <elementValue>
+              <value>2</value>
+              <measures>Beaufort</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
             <elementValue>
               <value>3</value>
               <measures>m/s</measures>
@@ -3180,119 +3180,9 @@
           <elementName>CI</elementName>
           <description>comfort index</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>24</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>18</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Cool</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>23</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>24</value>
-              <measures>NA</measures>
-            </elementValue>
-            <elementValue>
-              <value>Comfortable</value>
-              <measures>define CI text by self</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>21</value>
+              <value>22</value>
               <measures>NA</measures>
             </elementValue>
             <elementValue>
@@ -3369,7 +3259,7 @@
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>22</value>
+              <value>23</value>
               <measures>NA</measures>
             </elementValue>
             <elementValue>
@@ -3413,7 +3303,7 @@
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>17</value>
               <measures>NA</measures>
             </elementValue>
             <elementValue>
@@ -3443,91 +3333,131 @@
               <measures>define CI text by self</measures>
             </elementValue>
           </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>23</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>24</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>19</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Cool</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Cool</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Cool</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>24</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>24</value>
+              <measures>NA</measures>
+            </elementValue>
+            <elementValue>
+              <value>Comfortable</value>
+              <measures>define CI text by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>AT</elementName>
           <description>athletic temperature</description>
           <time>
-            <dataTime>2019-11-26T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>28</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T18:00:00+08:00</dataTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-26T21:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T00:00:00+08:00</dataTime>
-            <elementValue>
-              <value>21</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T03:00:00+08:00</dataTime>
-            <elementValue>
-              <value>20</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T06:00:00+08:00</dataTime>
-            <elementValue>
-              <value>19</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T09:00:00+08:00</dataTime>
-            <elementValue>
-              <value>22</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T12:00:00+08:00</dataTime>
-            <elementValue>
-              <value>26</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
-            <dataTime>2019-11-27T15:00:00+08:00</dataTime>
-            <elementValue>
-              <value>27</value>
-              <measures>C</measures>
-            </elementValue>
-          </time>
-          <time>
             <dataTime>2019-11-27T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>22</value>
+              <value>23</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-27T21:00:00+08:00</dataTime>
             <elementValue>
-              <value>20</value>
+              <value>21</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3541,7 +3471,7 @@
           <time>
             <dataTime>2019-11-28T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>18</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3555,28 +3485,28 @@
           <time>
             <dataTime>2019-11-28T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>18</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T12:00:00+08:00</dataTime>
             <elementValue>
-              <value>23</value>
+              <value>22</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T15:00:00+08:00</dataTime>
             <elementValue>
-              <value>23</value>
+              <value>25</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-28T18:00:00+08:00</dataTime>
             <elementValue>
-              <value>20</value>
+              <value>19</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3590,28 +3520,98 @@
           <time>
             <dataTime>2019-11-29T00:00:00+08:00</dataTime>
             <elementValue>
-              <value>16</value>
+              <value>17</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T03:00:00+08:00</dataTime>
             <elementValue>
-              <value>15</value>
+              <value>16</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T06:00:00+08:00</dataTime>
             <elementValue>
-              <value>14</value>
+              <value>15</value>
               <measures>C</measures>
             </elementValue>
           </time>
           <time>
             <dataTime>2019-11-29T09:00:00+08:00</dataTime>
             <elementValue>
-              <value>19</value>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>26</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>28</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T18:00:00+08:00</dataTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-29T21:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T00:00:00+08:00</dataTime>
+            <elementValue>
+              <value>20</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T03:00:00+08:00</dataTime>
+            <elementValue>
+              <value>18</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T06:00:00+08:00</dataTime>
+            <elementValue>
+              <value>17</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T09:00:00+08:00</dataTime>
+            <elementValue>
+              <value>21</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T12:00:00+08:00</dataTime>
+            <elementValue>
+              <value>27</value>
+              <measures>C</measures>
+            </elementValue>
+          </time>
+          <time>
+            <dataTime>2019-11-30T15:00:00+08:00</dataTime>
+            <elementValue>
+              <value>28</value>
               <measures>C</measures>
             </elementValue>
           </time>
@@ -3619,126 +3619,6 @@
         <weatherElement>
           <elementName>Wx</elementName>
           <description>weather</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-26T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T15:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T18:00:00+08:00</startTime>
-            <endTime>2019-11-26T21:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T21:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T03:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T03:00:00+08:00</startTime>
-            <endTime>2019-11-27T06:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T09:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T09:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T15:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear</value>
-              <measures>define Wx text by self</measures>
-            </elementValue>
-            <elementValue>
-              <value>01</value>
-              <measures>define Wx unit by self</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-27T18:00:00+08:00</startTime>
             <endTime>2019-11-27T21:00:00+08:00</endTime>
@@ -3851,11 +3731,11 @@
             <startTime>2019-11-28T21:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear</value>
+              <value>Partly cloudy</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>01</value>
+              <value>04</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -3863,11 +3743,11 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-29T03:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear</value>
+              <value>Partly cloudy</value>
               <measures>define Wx text by self</measures>
             </elementValue>
             <elementValue>
-              <value>01</value>
+              <value>04</value>
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
@@ -3907,90 +3787,130 @@
               <measures>define Wx unit by self</measures>
             </elementValue>
           </time>
+          <time>
+            <startTime>2019-11-29T12:00:00+08:00</startTime>
+            <endTime>2019-11-29T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T15:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-29T21:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T21:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T03:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T03:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T09:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T09:00:00+08:00</startTime>
+            <endTime>2019-11-30T12:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>01</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T12:00:00+08:00</startTime>
+            <endTime>2019-11-30T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T15:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy</value>
+              <measures>define Wx text by self</measures>
+            </elementValue>
+            <elementValue>
+              <value>04</value>
+              <measures>define Wx unit by self</measures>
+            </elementValue>
+          </time>
         </weatherElement>
         <weatherElement>
           <elementName>WeatherDescription</elementName>
           <description>weather description</description>
-          <time>
-            <startTime>2019-11-26T12:00:00+08:00</startTime>
-            <endTime>2019-11-26T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T15:00:00+08:00</startTime>
-            <endTime>2019-11-26T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. NorthWest wind 4m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T18:00:00+08:00</startTime>
-            <endTime>2019-11-26T21:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 23 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-26T21:00:00+08:00</startTime>
-            <endTime>2019-11-27T00:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 2m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T00:00:00+08:00</startTime>
-            <endTime>2019-11-27T03:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T03:00:00+08:00</startTime>
-            <endTime>2019-11-27T06:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 19 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T06:00:00+08:00</startTime>
-            <endTime>2019-11-27T09:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 19 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T09:00:00+08:00</startTime>
-            <endTime>2019-11-27T12:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 22 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T12:00:00+08:00</startTime>
-            <endTime>2019-11-27T15:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
-          <time>
-            <startTime>2019-11-27T15:00:00+08:00</startTime>
-            <endTime>2019-11-27T18:00:00+08:00</endTime>
-            <elementValue>
-              <value>Clear. Temperature 27 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
-              <measures>NA</measures>
-            </elementValue>
-          </time>
           <time>
             <startTime>2019-11-27T18:00:00+08:00</startTime>
             <endTime>2019-11-27T21:00:00+08:00</endTime>
@@ -4011,7 +3931,7 @@
             <startTime>2019-11-28T00:00:00+08:00</startTime>
             <endTime>2019-11-28T03:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 19 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 5m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4019,7 +3939,7 @@
             <startTime>2019-11-28T03:00:00+08:00</startTime>
             <endTime>2019-11-28T06:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 18 centigrade. Cool. North wind 5m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 19 centigrade. Cool. North wind 5m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4035,7 +3955,7 @@
             <startTime>2019-11-28T09:00:00+08:00</startTime>
             <endTime>2019-11-28T12:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 6m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4043,7 +3963,7 @@
             <startTime>2019-11-28T12:00:00+08:00</startTime>
             <endTime>2019-11-28T15:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 25 centigrade. Comfortable. North wind 5m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 25 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4051,7 +3971,7 @@
             <startTime>2019-11-28T15:00:00+08:00</startTime>
             <endTime>2019-11-28T18:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 25 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 26 centigrade. Comfortable. North wind 6m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4059,7 +3979,7 @@
             <startTime>2019-11-28T18:00:00+08:00</startTime>
             <endTime>2019-11-28T21:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 21 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4067,7 +3987,7 @@
             <startTime>2019-11-28T21:00:00+08:00</startTime>
             <endTime>2019-11-29T00:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 18 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Partly cloudy. Temperature 19 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4075,7 +3995,7 @@
             <startTime>2019-11-29T00:00:00+08:00</startTime>
             <endTime>2019-11-29T03:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 18 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Partly cloudy. Temperature 18 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4083,7 +4003,7 @@
             <startTime>2019-11-29T03:00:00+08:00</startTime>
             <endTime>2019-11-29T06:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 17 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 17 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4091,7 +4011,7 @@
             <startTime>2019-11-29T06:00:00+08:00</startTime>
             <endTime>2019-11-29T09:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 16 centigrade. Cool. North wind 4m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 16 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
@@ -4099,7 +4019,87 @@
             <startTime>2019-11-29T09:00:00+08:00</startTime>
             <endTime>2019-11-29T12:00:00+08:00</endTime>
             <elementValue>
-              <value>Clear. Temperature 20 centigrade. Comfortable. North wind 3m/s. Chance of precipitation 0%.</value>
+              <value>Clear. Temperature 20 centigrade. Comfortable. SouthWest wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T12:00:00+08:00</startTime>
+            <endTime>2019-11-29T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 26 centigrade. Comfortable. West wind 2m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T15:00:00+08:00</startTime>
+            <endTime>2019-11-29T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 27 centigrade. Comfortable. North wind 4m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T18:00:00+08:00</startTime>
+            <endTime>2019-11-29T21:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 22 centigrade. Comfortable. North wind 1m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-29T21:00:00+08:00</startTime>
+            <endTime>2019-11-30T00:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 20 centigrade. Comfortable. West wind 1m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T00:00:00+08:00</startTime>
+            <endTime>2019-11-30T03:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 19 centigrade. Cool. East wind 2m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T03:00:00+08:00</startTime>
+            <endTime>2019-11-30T06:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 18 centigrade. Cool. East wind 2m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T06:00:00+08:00</startTime>
+            <endTime>2019-11-30T09:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 17 centigrade. Cool. North wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T09:00:00+08:00</startTime>
+            <endTime>2019-11-30T12:00:00+08:00</endTime>
+            <elementValue>
+              <value>Clear. Temperature 21 centigrade. Comfortable. West wind 4m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T12:00:00+08:00</startTime>
+            <endTime>2019-11-30T15:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 27 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
+              <measures>NA</measures>
+            </elementValue>
+          </time>
+          <time>
+            <startTime>2019-11-30T15:00:00+08:00</startTime>
+            <endTime>2019-11-30T18:00:00+08:00</endTime>
+            <elementValue>
+              <value>Partly cloudy. Temperature 28 centigrade. Comfortable. NorthWest wind 3m/s. Chance of precipitation 0%.</value>
               <measures>NA</measures>
             </elementValue>
           </time>
