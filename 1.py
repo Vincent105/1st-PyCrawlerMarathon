@@ -1,13 +1,9 @@
-import xmltodict
+import requests
+import json
+request = requests.get(
+    'https://www.dcard.tw/_api/forums/pet/posts?popular=true')
+target_arrays = json.loads(request.text)
 
-with open('./data/64_72hr_CH.xml', encoding='UTF-8') as fd:
-    doc = dict(xmltodict.parse(fd.read()))
-
-sect_with_tempers = doc["cwbopendata"]["dataset"]["locations"]["location"]
-
-for sect_with_temper in sect_with_tempers:
-    if sect_with_temper['locationName'] == '鹽埕區':
-        for weatherElement in sect_with_temper['weatherElement']:
-            if weatherElement['description'] == '溫度':
-                for time in weatherElement['time']:
-                    print(time['dataTime'], time['elementValue']['value'])
+for target_array in target_arrays:
+    print('標題:{0:30s}貼文時間:{1:20s}留言人數:{2:4d}:4}按讚人數:{3:4d}'.format(
+        target_array['title'], target_array['createdAt'], target_array['commentCount'], target_array['likeCount']))
