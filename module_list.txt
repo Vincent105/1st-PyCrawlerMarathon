@@ -2,3 +2,5 @@ pip install xmltodict
 pip install requests
 pip install pyquery
 pip install grab
+pip install html5lib
+pip install lxml
