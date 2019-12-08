@@ -1,3 +1,4 @@
+# 遍歷文檔
 from bs4 import BeautifulSoup
 
 html_doc = """
@@ -78,3 +79,16 @@ for sibling in soup.a.next_siblings:
 
 for sibling in soup.find(id='link3').previous_siblings:
     print(sibling)
+
+#   .next_element   .next_sibling
+last_a_tag = soup.find('a', id='link3')
+print(last_a_tag)
+print(last_a_tag.next_sibling)
+print(last_a_tag.next_element)
+print(last_a_tag)
+print(last_a_tag.previous_sibling)
+print(last_a_tag.previous_element)
+
+for element in last_a_tag.next_elements:
+    print(repr(element))
+
