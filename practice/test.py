@@ -1,8 +1,19 @@
-regex = '(\d[0,1]\d\d|2[0-4]\d|25[0-5])\.(\d[0,1]\d\d|2[0-4]\d|25[0-5])\.(\d[0,1]\d\d|2[0-4]\d|25[0-5])\.(\d[0,1]\d\d|2[0-4]\d|25[0-5])'
+import requests
+import collections
+from bs4 import BeautifulSoup
 
-test_string1 = "Test IP 216.58.200.227"
-RegexMatchingTest(regex, test_string1)  # 測試表達式是否會匹配此合法IP
+url = 'https://www.ettoday.net/news/news-list.htm'
+r = requests.get(url)
 
-test_string2 = "Test IP 999.888.777.666"
-RegexMatchingTest(regex, test_string2)  # 測試表達式是否會匹配此不合法IP
-e
+soup = BeautifulSoup(r.text.replace(u'\u3000', '　'), "html.parser")
+articles = {}
+count = 0
+
+for d in soup.find(class_="part_list_2").find_all('h3'):
+    # print(d.find(class_="date").text, d.find_all('em')[-1].text , d.find_all('a')[-1].text)
+
+    articles[count] = ({'date': d.find(class_="date").text,
+                        'title': d.find_all('a')[-1].text.replace(u'\u3000', '　'),
+                        'tag': d.find_all("em")[-1].text})
+    count += 1
+print(articles)
