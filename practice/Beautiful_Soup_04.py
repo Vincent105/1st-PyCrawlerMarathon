@@ -121,3 +121,51 @@ print(a_string)
 print(a_string.find_parents("a"))
 print("\n")
 print(a_string.find_parents("p"))
+
+# find_next_siblings() find_next_sibling
+first_link = soup.a
+print(first_link)
+print(first_link.find_next_sibling('a'))
+print(first_link.find_next_siblings('a'))
+
+first_story_paragraph = soup.find("p", "story")
+print(first_story_paragraph)
+print(first_story_paragraph.find_next_sibling('p'))
+
+# find_previous_siblings() 和 find_previous_sibling()
+last_link = soup.find('a', id="link3")
+print(last_link)
+print(last_link.find_previous_sibling("a"))
+print(last_link.find_previous_siblings("a"))
+
+first_story_paragraph = soup.find("p", "story")
+print(first_story_paragraph.find_previous_sibling('p'))
+
+# find_all_next() 和 find_next()
+first_link = soup.a
+print(first_link.find_all_next(string=True))
+print(first_link.find_next(string=True))
+print(first_link.find_all_next("p"))
+print(first_link.find_next("p"))
+
+# find_all_previous() 和 find_previous()
+first_link = soup.a
+print(first_link)
+# <a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>
+
+print(first_link.find_all_previous("p"))
+# [<p class="story">Once upon a time there were three little sisters; ...</p>,
+#  <p class="title"><b>The Dormouse's story</b></p>]
+
+print(first_link.find_previous("title"))
+# <title>The Dormouse's story</title>
+
+# CSS选择器
+print(soup.select('title'))
+print(soup.select("p:nth-of-type(3)"))
+print(soup.select("body a"))
+print(soup.select("html head title"))
+print(soup.select("head > title"))
+print(soup.select("p > a"))
+print(soup.select("p > a:nth-of-type(1)"))
+print(soup.select("p > #link1"))
