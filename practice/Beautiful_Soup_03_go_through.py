@@ -91,4 +91,5 @@ print(last_a_tag.previous_element)
 
 for element in last_a_tag.next_elements:
     print(repr(element))
-
+soup.select_one(".sister")
+# <a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>
