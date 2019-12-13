@@ -47,13 +47,13 @@ print(soup.find_all('a'))
 #   利用.contents 將子節點以列表輸出
 title_tag = soup.title
 print(title_tag)
-print(title_tag.contents)  
+print(title_tag.contents)
 
 for child in title_tag.children:
     print(child)
 
 for string in soup.stripped_strings:
-    print(repr(string))    
+    print(repr(string))
 
 sibling = soup.div
 
@@ -69,7 +69,7 @@ for tag in soup.find_all(re.compile("t")):   # 搜尋只要包含t
 
 # use list
 print(soup.find_all(["a", "b"]))
- 
+
 for tag in soup.find_all(True):
     print(tag.name)
 print(soup.find_all('title'))

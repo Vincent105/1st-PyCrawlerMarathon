@@ -32,5 +32,5 @@ print(soup.find(id="link3"))
 for link in soup.find_all('a'):
     print(link.get('href'))
 
-print(soup.text)  
-print('support,html.parse,lxml,xml,html5lib')  
+print(soup.text)
+print('support,html.parse,lxml,xml,html5lib')
