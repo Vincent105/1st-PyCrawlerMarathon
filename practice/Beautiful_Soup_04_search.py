@@ -169,3 +169,25 @@ print(soup.select("head > title"))
 print(soup.select("p > a"))
 print(soup.select("p > a:nth-of-type(1)"))
 print(soup.select("p > #link1"))
+
+# 找兄弟節點
+print(soup.select("#link1 ~ .sister"))
+print(soup.select("#link1 + .sister"))
+
+# 透過css tag搜尋
+print(soup.select(".sister"))
+print(soup.select("[class~=sister]"))
+
+# 透過css tag id搜尋
+print(soup.select("#link1"))
+print(soup.select("#link1,#link2"))
+print(soup.select("a[href]"))
+
+# 透過屬性值 尋找
+print(soup.select("a[href='http://example.com/elsie']"))
+print(soup.select('a[href^="http://example.com/"]'))
+print(soup.select('a[href$="tillie"]'))
+print(soup.select('a[href*=".com/el"]'))
+
+# 選一個
+print(soup.select_one(".sister"))
