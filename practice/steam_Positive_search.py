@@ -5,7 +5,9 @@ from bs4 import BeautifulSoup
 
 steam_Positive_searchs = {}
 
-max_page = 1
+# 控制擷取列表頁數量：
+max_page = 2
+
 for page_number in range(1, max_page+1, 1):
 
     url = 'https://store.steampowered.com/search/?'
@@ -30,21 +32,17 @@ for page_number in range(1, max_page+1, 1):
         elif re.match('Overwhelmingly Positive', satisfaction['data-tooltip-html']):
             print(
                 "-------------------------------------------------------------------------")
-            # 遊戲序號：
             print("遊戲序號：", i.get('data-ds-appid'))
-            # 遊戲名稱：
             game_name = i.find(
                 "div", attrs={"class": "col search_name ellipsis"})
             print("遊戲名稱：", game_name.span.string)
-            # 發售日期：
             realse_date = i.find(
                 "div", attrs={"class": "col search_released responsive_secondrow"})
             print("發售日期：", realse_date.string)
-            # 遊戲評價：
             print("遊戲評價：", satisfaction['data-tooltip-html'])
-            # 商店頁面：
+
             print("商店頁面：", i.get('href'))
-            # 遊戲售價：
+
             price = i.find(
                 "div", attrs={"class": "col search_price_discount_combined responsive_secondrow"})
             if price.div.span is None:
