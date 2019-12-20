@@ -4,3 +4,4 @@ pip install pyquery
 pip install grab
 pip install html5lib
 pip install lxml
+pip install selenium
