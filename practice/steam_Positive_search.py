@@ -22,7 +22,6 @@ for page_number in range(1, max_page+1, 1):
     soup = BeautifulSoup(resp.text, 'html.parser')
     html = soup.find("div", attrs={"id": "search_resultsRows"}).find_all("a")
 
-
     for i in html:
         satisfaction = i.find(
             "div", attrs={"class": "col search_reviewscore responsive_secondrow"}).find(
