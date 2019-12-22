@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 steam_Positive_searchs = {}
 
 # 控制擷取列表頁數量：
-max_page = 2
+max_page = 10
 
 for page_number in range(1, max_page+1, 1):
 

@@ -1,0 +1,86 @@
+[1222/094055.736:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2a28c659f00 of 72 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.737:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Google\Chrome\Application\79.0.3945.88\chrome_elf.dll
+[1222/094055.737:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2a28e339dd0 of 72 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.737:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Google\Chrome\Application\79.0.3945.88\chrome.dll
+[1222/094055.738:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2a28e240000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.738:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[1222/094055.739:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9da4a0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.739:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\IME\shared\imetip.dll
+[1222/094055.739:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9da1b0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.739:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\IME\IMETC\IMTCCORE.DLL
+[1222/094055.739:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9d9b90000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.739:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\IME\shared\mscand20.dll
+[1222/094055.740:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff7a6150000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.740:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1222/094055.740:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2a28c659f00 of 72 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.740:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Google\Chrome\Application\79.0.3945.88\chrome_elf.dll
+[1222/094055.740:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9db180000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.740:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\79.0.3945.88\chrome.dll
+[1222/094055.740:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2a28e240000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.741:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[1222/094055.741:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9da760000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.741:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\IME\IMETC\IMTCTIP.DLL
+[1222/094055.741:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9da4a0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.741:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\IME\shared\imetip.dll
+[1222/094055.741:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9da1b0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.741:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\IME\IMETC\IMTCCORE.DLL
+[1222/094055.741:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9d9b90000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.741:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\IME\shared\mscand20.dll
+[1222/094055.741:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa05ec0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.741:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa26ae0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\dataexchange.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9eef40000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Media.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa29c00000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\RTWorkQ.DLL
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2e8d0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\atlthunk.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa29c30000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\directmanipulation.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa317a0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\OneCoreUAPCommonProxyStub.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa05910000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\explorerframe.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa06be0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\wpnapps.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa31580000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\wbem\wbemprox.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2e350000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\wbemcomn.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2d230000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\wbem\wbemsvc.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2d780000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\wbem\fastprox.dll
+[1222/094055.742:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa31730000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.742:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\wlanapi.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2b4c0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\mscms.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa34840000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\ColorAdapterClient.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2d200000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\system32\wbem\wmiutils.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9f8640000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\icm32.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9fa340000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\wbem\WmiPerfInst.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa17580000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\pdh.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9f4650000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Devices.Bluetooth.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa0b0e0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Networking.HostName.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff9f4550000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Networking.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa03fe0000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\BiWinrt.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa03e20000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Networking.Connectivity.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa2a760000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Devices.Enumeration.dll
+[1222/094055.743:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffa33710000 of 64 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.743:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\Windows.Devices.Radios.dll
+[1222/094055.771:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2a2908cc1d0 of 270 bytes failed: 度ЧΘ场だ ReadProcessMemory ┪ WriteProcessMemory 璶― (0x12B)
+[1222/094055.771:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[1222/094055.772:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\User\AppData\Local\Temp\scoped_dir10244_1624115234\Crashpad\reports\a430b385-2e46-4c1e-bff5-53cec3e3509e.dmp: 祘礚猭郎郎タパ祘ㄏノ (0x20)
+[1222/094055.772:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 沽刚瞷Τ矪瞶祘 (0xc000010a)
