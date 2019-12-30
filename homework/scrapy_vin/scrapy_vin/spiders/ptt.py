@@ -13,7 +13,9 @@ class PttSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        soup = BeautifulSoup(response.text, features='xml')
-        main_content = soup.find(id='main-content')
-        print(main_content)
-        metas = main_content.select('div.article-metaline')
+        author = response.xpath('//*[@id="main-content"]/div[1]/span[2]/text()').get()
+        board = response.xpath('//*[@id="main-content"]/div[2]/span[2]/text()').get()
+        title = response.xpath('//*[@id="main-content"]/div[3]/span[2]/text()').get()
+        creat_time = response.xpath('//*[@id="main-content"]/div[4]/span[2]/text()').get()
+
+
