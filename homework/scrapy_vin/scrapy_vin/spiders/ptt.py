@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from bs4 import BeautifulSoup
-
+from ..items import ScrapyVinItem
 
 class PttSpider(scrapy.Spider):
     name = 'ptt'
@@ -18,4 +18,11 @@ class PttSpider(scrapy.Spider):
         title = response.xpath('//*[@id="main-content"]/div[3]/span[2]/text()').get()
         creat_time = response.xpath('//*[@id="main-content"]/div[4]/span[2]/text()').get()
 
+        data = ScrapyVinItem()
+        data['url'] = response.url
+        data['article_author'] = author
+        data['article_title'] = title
+        data['article_board'] = board
+        data['article_time'] = creat_time
 
+        yield data

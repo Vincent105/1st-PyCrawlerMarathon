@@ -9,7 +9,8 @@ import scrapy
 
 
 class ScrapyVinItem(scrapy.Item):
-    author = scrapy.Field()
-    board = scrapy.Field()
-    title = scrapy.Field()
-    creat_time = scrapy.Field()
+    url = scrapy.Field()        
+    article_author = scrapy.Field()
+    article_board = scrapy.Field()
+    article_title = scrapy.Field()
+    article_time = scrapy.Field()
