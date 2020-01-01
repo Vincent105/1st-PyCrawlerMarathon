@@ -14,7 +14,7 @@ from datetime import datetime
 class ScrapyVinPipeline(object):
     def open_spider(self, spider):
         
-        self.start_crawl_datetime = datetime.now().strftime('%Y%m%dT%H_%M%S')
+        self.start_crawl_datetime = datetime.now().strftime('%Y%m%dT_%H%M%S')
         self.dir_path = Path(__file__).resolve().parents[1] / 'crawled_data'
         self.runtime_file_path = str(self.dir_path / '.tmp.json.swp')
 
@@ -41,12 +41,12 @@ class ScrapyVinPipeline(object):
         return item
 
     def close_spider(self, spider):
-        self.end_crawl_datetime = datetime.now().strftime('%Y%m%dT%H_%M%S')
+        self.end_crawl_datetime = datetime.now().strftime('%Y%m%dT_%H%M%S')
 
         self.runtime_file.write('\n]')
         self.runtime_file.close()
-        
-        self.store_file_path = self.dir_path / '{}_{}.json'.format(self.start_crawl_datetime,
+
+        self.store_file_path = self.dir_path / '{}-{}.json'.format(self.start_crawl_datetime,
                                                                    self.end_crawl_datetime)
         self.store_file_path = str(self.store_file_path)
         os.rename(self.runtime_file_path, self.store_file_path)
