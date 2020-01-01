@@ -17,12 +17,18 @@ class MySpider(scrapy.Spider):
 
     def parse(self, response):
         self.logger.info('A response from %s just arrived', response.url)
-        item = MyprojectItem()
-        item['title'] = response.xpath(
-            '//*[@id="main-content"]/div[3]/span[2]/text()').get()
 
-        item['author'] = response.xpath(
+        item = MyprojectItem()
+
+        item['url'] = response.url
+        item['article_author'] = response.xpath(
             '//*[@id="main-content"]/div[1]/span[2]/text()').get()
+        item['article_board'] = response.xpath(
+            '//*[@id="main-content"]/div[2]/span[2]/text()').get()
+        item['article_title'] = response.xpath(
+            '//*[@id="main-content"]/div[3]/span[2]/text()').get()
+        item['article_time'] = response.xpath(
+            '//*[@id="main-content"]/div[4]/span[2]/text()').get()
 
         yield item
 
