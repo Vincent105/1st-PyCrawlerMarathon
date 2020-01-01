@@ -22,13 +22,13 @@ class MySpider(scrapy.Spider):
 
         item['url'] = response.url
         item['article_author'] = response.xpath(
-            '//*[@id="main-content"]/div[1]/span[2]/text()').get()
+            '//*[@id="main-content"]/div[1]/span[2]/text()').get(default='not-found')
         item['article_board'] = response.xpath(
-            '//*[@id="main-content"]/div[2]/span[2]/text()').get()
+            '//*[@id="main-content"]/div[2]/span[2]/text()').get(default='not-found')
         item['article_title'] = response.css(
-            '#main-content > div:nth-child(3) > span.article-meta-value::text').get()
+            '#main-content > div:nth-child(3) > span.article-meta-value::text').get(default='not-found')
         item['article_time'] = response.xpath(
-            '//*[@id="main-content"]/div[4]/span[2]/text()').get()
+            '//*[@id="main-content"]/div[4]/span[2]/text()').get(default='not-found')
 
         yield item
 

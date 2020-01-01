@@ -8,7 +8,8 @@ class PttSpider(scrapy.Spider):
     name = 'ptt'
     allowed_domains = ['www.ptt.cc']
     start_urls = [
-        'https://www.ptt.cc/bbs/Lifeismoney/M.1577614539.A.44E.html'
+        'https://www.ptt.cc/bbs/Lifeismoney/M.1577787844.A.93E.html',
+        'https://www.ptt.cc/bbs/Lifeismoney/M.1577790895.A.4C2.html',
     ]
 
     def start_requests(self):
@@ -22,12 +23,12 @@ class PttSpider(scrapy.Spider):
 
         data['url'] = response.url
         data['article_author'] = response.xpath(
-            '//*[@id="main-content"]/div[1]/span[2]/text()').get()
+            '//*[@id="main-content"]/div[1]/span[2]/text()').get(default='not-found')
         data['article_board'] = response.xpath(
-            '//*[@id="main-content"]/div[2]/span[2]/text()').get()
+            '//*[@id="main-content"]/div[2]/span[2]/text()').get(default='not-found')
         data['article_title'] = response.css(
-            '#main-content > div:nth-child(3) > span.article-meta-value::text').get()
+            '#main-content > div:nth-child(3) > span.article-meta-value::text').get(default='not-found')
         data['article_time'] = response.xpath(
-            '//*[@id="main-content"]/div[4]/span[2]/text()').get()
+            '//*[@id="main-content"]/div[4]/span[2]/text()').get(default='not-found')
 
         yield data
