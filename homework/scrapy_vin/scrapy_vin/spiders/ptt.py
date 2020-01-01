@@ -23,10 +23,10 @@ class PttSpider(scrapy.Spider):
         data['url'] = response.url
         data['article_author'] = response.xpath(
             '//*[@id="main-content"]/div[1]/span[2]/text()').get()
-        data['article_title'] = response.xpath(
-            '//*[@id="main-content"]/div[3]/span[2]/text()').get()
         data['article_board'] = response.xpath(
             '//*[@id="main-content"]/div[2]/span[2]/text()').get()
+        data['article_title'] = response.xpath(
+            '//*[@id="main-content"]/div[3]/span[2]/text()').get()
         data['article_time'] = response.xpath(
             '//*[@id="main-content"]/div[4]/span[2]/text()').get()
 
