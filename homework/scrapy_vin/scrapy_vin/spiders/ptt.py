@@ -28,7 +28,7 @@ class PttSpider(scrapy.Spider):
             '//*[@id="main-content"]/div[2]/span[2]/text()').get(default='not-found')
         data['article_title'] = response.css(
             '#main-content > div:nth-child(3) > span.article-meta-value::text').get(default='not-found')
-        data['article_time'] = response.xpath(
-            '//*[@id="main-content"]/div[4]/span[2]/text()').get(default='not-found')
+        data['article_time'] = response.css(
+            '#main-content > div:nth-child(4) > span.article-meta-value::text').get(default='not-found')
 
         yield data
