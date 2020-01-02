@@ -64,7 +64,6 @@ class ExSelectorsSpider(scrapy.Spider):
         print(response.xpath('//*[@id="images"]/a/img/@src').getall())
         print('08==============================')
 
-
         print('************************************************************')
         print('Extensions to CSS Selectors*****')
         print('************************************************************')
@@ -76,7 +75,6 @@ class ExSelectorsSpider(scrapy.Spider):
         print(response.css('#images *::text').getall())
         print(response.css('a::attr(href)').getall())
 
-
         print('************************************************************')
         print('Nesting selectors***************')
         print('************************************************************')
@@ -87,12 +85,18 @@ class ExSelectorsSpider(scrapy.Spider):
                     link.xpath('img/@src').get())
             print('Link number %d points to url %r and image %r' % args)
 
-
         print('************************************************************')
         print('Selecting element attributes***************')
         print('************************************************************')
         print(response.xpath("//a/@href").getall())
+        print(response.css('a::attr(href)').getall())
+        print([a.attrib['href'] for a in response.css('a')])
+        print(response.css('base').attrib)
+        print(response.css('base').attrib['href'])
 
-
+        print('************************************************************')
+        print('Using selectors with regular expressions***************')
+        print('************************************************************')
+        print(response.xpath('//a[contains(@href,"image")]/text()'))
 
         yield item
