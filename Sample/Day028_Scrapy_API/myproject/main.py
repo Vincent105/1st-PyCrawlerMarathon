@@ -8,7 +8,7 @@ def main():
         'https://www.ptt.cc/bbs/Gossiping/M.1559788476.A.074.html',
         'https://www.ptt.cc/bbs/Gossiping/M.1557928779.A.0C1.html'
     ]
-    process = CrawlerProcess(get_project_settings())
+    process = CrawlerProcess({'SPIDER_MODULES': 'myproject.spiders'})
     process.crawl('PTTCrawler', start_urls=target_urls, filename='test.json')
     process.start()
 

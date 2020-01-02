@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     # 'scrapy_vin.pipelines.ScrapyVinPipeline': 300,
-    'scrapy_vin.pipelines.ScrapyVinPipeline': 10
+    'scrapy_vin.pipelines.ScrapyVinPipeline': 300
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
