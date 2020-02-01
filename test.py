@@ -1,58 +1,34 @@
-import threading
 import time
-import requests
-from bs4 import BeautifulSoup
+import asyncio
 
-startTime = time.time()
-
-def run_1(url):
-    r = requests.get(url)
-
-    soup = BeautifulSoup(r.text, "html5lib")
-
-    for d in soup.find_all(class_="title"):
-        print("標題:", d.text.replace('\t', '').replace('\n', ''))
-        try:
-            r = BeautifulSoup(requests.get('https://www.ptt.cc'+d.find('a')['href']).text, "html5lib")
-            print('作者: ' + r.find(class_='article-meta-value').text)
-        except:
-            continue           
-    print('Thread_1 stopped')
-
-
-def run_2(url):
-    r = requests.get(url)
-
-    soup = BeautifulSoup(r.text, "html5lib")
-
-    for d in soup.find_all(class_="title"):
-        print("標題:", d.text.replace('\t', '').replace('\n', ''))
-        try:
-            r = BeautifulSoup(requests.get('https://www.ptt.cc'+d.find('a')['href']).text, "html5lib")
-            print('作者: ' + r.find(class_='article-meta-value').text)
-        except:
-            continue   
-    print('Thread_2 stopped')
+def job(t):
+    print('Start job ', t)
+    time.sleep(t)               # wait for "t" seconds
+    print('Job ', t, ' takes ', t, ' s')
 
 
 def main():
-    t1 = threading.Thread(target=run_1, args=(
-        'https://www.ptt.cc/bbs/Stock/index.html',))
-    t2 = threading.Thread(target=run_2, args=(
-        'https://www.ptt.cc/bbs/NBA/index.html',))
-    t1.start()        
-    t2.start()
-    t1.join()
-    t2.join()
+    [job(t) for t in range(1, 3)]
 
-    while True:
-        length = len(threading.enumerate())
-        if length <= 1:
-            break
-            
-    finishTime = time.time()
-    print('任務結束爬蟲擷取時間:', finishTime - startTime)  # 正常情況的爬蟲所需時間
-    print('.py測試時間減少一半，ipynb無法顯示threading.enumerate()偵測數據')            
 
-if __name__ == '__main__':
-    main()
+t1 = time.time()
+main()
+print("NO async total time : ", time.time() - t1)
+
+async def job(t):                   # async 形式的功能
+    print('Start job ', t)
+    await asyncio.sleep(t)          # 等待 "t" 秒, 期间切换其他任务
+    print('Job ', t, ' takes ', t, ' s')
+
+
+async def main(loop):                       # async 形式的功能
+    tasks = [
+    loop.create_task(job(t)) for t in range(1, 3)
+    ]                                       # 创建任务, 但是不执行
+    await asyncio.wait(tasks)               # 执行并等待所有任务完成
+
+t1 = time.time()
+loop = asyncio.get_event_loop()             # 建立 loop
+loop.run_until_complete(main(loop))         # 执行 loop
+loop.close()                                # 关闭 loop
+print("Async total time : ", time.time() - t1)
