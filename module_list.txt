@@ -9,3 +9,5 @@ pip install selenium
 pip install scrapy
 pip install pytesseract
 pip install tesserocr
+pip install aiohttp
+pip install nest_asyncio
