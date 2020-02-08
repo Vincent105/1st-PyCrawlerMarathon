@@ -1,6 +1,5 @@
 import requests
 import re
-import csv
 from bs4 import BeautifulSoup
 
 steam_Positive_searchs = {}
