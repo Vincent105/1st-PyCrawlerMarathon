@@ -30,13 +30,13 @@ while keepGoing:
 
         if url not in article_url and article_count < target_count:
             article_url.append(url)
-            article_content[article_count]['標題'] = news_item.find('h6').text
+            article_content[article_count]['標題'] = news_item.find('h6').string
             article_content[article_count]['分類'] = news_item.find('div', class_='sc-gacfCG bPSpUf').string
             article_content[article_count]['摘要'] = news_item.find('p', class_='sc-FQuPU sc-ciodno bvnzOw').string
             article_content[article_count]['連結'] = url
             article_count += 1
         elif url not in article_url and article_count == target_count:    
-            article_content[article_count]['標題'] = news_item.find('h6').text
+            article_content[article_count]['標題'] = news_item.find('h6').string
             article_content[article_count]['分類'] = news_item.find('div', class_='sc-gacfCG bPSpUf').string
             article_content[article_count]['摘要'] = news_item.find('p', class_='sc-FQuPU sc-ciodno bvnzOw').string
             article_content[article_count]['連結'] = url               
