@@ -47,4 +47,5 @@ while keepGoing:
 
 # print(article_content)
 
-print(pd.DataFrame.from_dict(article_content, orient='index', columns=['標題', '分類', '摘要', '連結']) )
+frame = pd.DataFrame(article_content)
+print(frame.T)
