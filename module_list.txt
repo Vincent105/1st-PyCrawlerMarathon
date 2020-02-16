@@ -12,3 +12,5 @@ pip install pytesseract
 pip install tesserocr
 pip install aiohttp
 pip install nest_asyncio
+pip install jieba
+pip install Wordcloud
